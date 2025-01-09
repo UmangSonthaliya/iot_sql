@@ -11,6 +11,6 @@ create databases db;
 create user 'umang'@'localhost' identified by 'pimylifeup'
 use db;
 create table sensorstat(data_time varchar(50),irsensorstat float)
-grant all priviledge to.* 'umang'@'localhost';
+grant all priviledge on db to.* 'umang'@'localhost';
 flush privileges;
 quit;
